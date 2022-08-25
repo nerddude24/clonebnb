@@ -1,21 +1,20 @@
 import React from "react";
-import franzj from "../img/franzj.jpeg";
 import star from "../img/star.png";
 
-export default function Card() {
+export default function Card({ img, rating, ratingCount, loc, title, price }) {
 	return (
 		<div className="card">
-			<img src={franzj} />
+			<img src={"./public/img/" + img} />
 			<div className="card-stats">
 				<img src={star} className="card-stats-star" />
-				<span className="black">5.0 </span>
-				<span className="grey">(6) •</span>
-				<span className="grey">USA</span>
+				<span className="black">{rating} </span>
+				<span className="grey">({ratingCount}) •</span>
+				<span className="grey">{loc}</span>
 			</div>
 			<div className="card-info">
-				<p>Life lessons with FranzJ</p>
+				<p>{title}</p>
 				<p>
-					<b>From 136$</b> / person
+					<b>From {price}$</b> / person
 				</p>
 			</div>
 		</div>
