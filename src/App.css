@@ -35,15 +35,17 @@ nav > img {
 }
 
 .card {
-  margin: auto;
-  display: flex;
-  flex-direction: column;
-  height: 500px;
-  width: 300px;
+  margin: 50px 25px;
+  max-height: 500px;
+  max-width: 300px;
+  box-shadow: 0px 0px 2px 1px rgba(0, 0, 0, 0.2);
+  border-radius: 15px;
+  padding: 5px;
 }
 
 .card > img {
-  height: 75%;
+  height: 375px;
+  width: 290px;
   border-radius: 15px;
 }
 
@@ -54,7 +56,8 @@ nav > img {
 }
 
 .card-stats-star {
-  width: 24px;
+  width: 20px;
+  padding-bottom: 3px;
 }
 
 .card-stats > .black {
@@ -66,10 +69,26 @@ nav > img {
   padding-left: 5px;
 }
 
-.card-info {
-  font-size: small;
+.card-info-title,
+.card-info-price {
+  font-size: 16px;
+  font-weight: 300;
+  margin: 0;
+  padding: 0;
 }
 
-.card-info > p {
-  font-weight: 300;
+.card-info-title {
+  max-lines: 2;
+  overflow: hidden;
+}
+
+.card-info-price {
+  justify-self: flex-end;
+  max-lines: 1;
+}
+
+.cards {
+  display: flex;
+  justify-content: left;
+  flex-wrap: wrap;
 }/*# sourceMappingURL=App.css.map */
