@@ -10,7 +10,7 @@ export default [
 		},
 		loc: "USA",
 		price: 0.44,
-		openSpots: 27,
+		openSpots: 0,
 	},
 	{
 		id: 2,
@@ -28,14 +28,13 @@ export default [
 	{
 		id: 3,
 		img: "tate.jpeg",
-		title:
-			"Become an alpha male hustlerdqsdqdsqqsdqdsqdqdqdqdqdqsssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssss",
+		title: "Become an alpha male hustler",
 		desc: "Join Scammer... i mean hustler uni to become rich and alpha and shit",
 		stats: {
 			rating: "0.0",
 			ratingCount: 350120559,
 		},
-		loc: "RO",
+		loc: "Online",
 		price: 999.99,
 		openSpots: 999,
 	},

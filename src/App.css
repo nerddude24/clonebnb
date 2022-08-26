@@ -36,15 +36,26 @@ nav > img {
 
 .card {
   margin: 50px 25px;
-  max-height: 500px;
-  max-width: 300px;
-  box-shadow: 0px 0px 2px 1px rgba(0, 0, 0, 0.2);
+  height: 500px;
+  width: 300px;
+  box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
   border-radius: 15px;
   padding: 5px;
+  position: relative;
+}
+
+.card-badge {
+  position: absolute;
+  top: 15px;
+  left: 15px;
+  background-color: white;
+  padding: 5px 7px;
+  border-radius: 3px;
+  font-weight: bold;
 }
 
 .card > img {
-  height: 375px;
+  height: 350px;
   width: 290px;
   border-radius: 15px;
 }
@@ -78,13 +89,14 @@ nav > img {
 }
 
 .card-info-title {
-  max-lines: 2;
+  max-lines: 3;
   overflow: hidden;
 }
 
 .card-info-price {
   justify-self: flex-end;
-  max-lines: 1;
+  position: absolute;
+  bottom: 0;
 }
 
 .cards {

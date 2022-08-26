@@ -6,18 +6,7 @@ import CardData from "./CardData";
 
 export default function App() {
 	const cards = CardData.map((card) => {
-		return (
-			<Card
-				img={card.img}
-				rating={card.stats.rating}
-				ratingCount={card.stats.ratingCount}
-				loc={card.loc}
-				title={card.title}
-				price={card.price}
-				desc={card.desc}
-        openSpots={card.openSpots}
-			/>
-		);
+		return <Card key={card.id} item={card} />;
 	});
 	return (
 		<div className="App">
