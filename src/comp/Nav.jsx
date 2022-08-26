@@ -3,7 +3,9 @@ import icon from "../img/airbnbico.png";
 export default function Nav() {
 	return (
 		<nav>
-			<img src={icon} alt="airbnb" />
+			<a href="https://www.airbnb.com" target="_blank">
+				<img src={icon} alt="airbnb" />
+			</a>
 		</nav>
 	);
 }

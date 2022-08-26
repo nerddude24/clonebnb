@@ -5,7 +5,7 @@ nav {
   box-shadow: 0 3px 4px 1px rgba(0, 0, 0, 0.15);
 }
 
-nav > img {
+nav > a > img {
   color: red;
   max-width: 125px;
 }
@@ -38,9 +38,6 @@ nav > img {
   margin: 50px 25px;
   height: 500px;
   width: 300px;
-  box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
-  border-radius: 15px;
-  padding: 5px;
   position: relative;
 }
 
@@ -56,7 +53,7 @@ nav > img {
 
 .card > img {
   height: 350px;
-  width: 290px;
+  width: 300px;
   border-radius: 15px;
 }
 
@@ -103,4 +100,9 @@ nav > img {
   display: flex;
   justify-content: left;
   flex-wrap: wrap;
+}
+
+footer {
+  bottom: 0;
+  text-align: center;
 }/*# sourceMappingURL=App.css.map */

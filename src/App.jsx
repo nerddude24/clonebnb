@@ -2,6 +2,7 @@ import "./App.css";
 import Hero from "./comp/Hero";
 import Nav from "./comp/Nav";
 import Card from "./comp/Card";
+import Footer from "./comp/Footer";
 import CardData from "./CardData";
 
 export default function App() {
@@ -15,6 +16,7 @@ export default function App() {
 				<Hero />
 				<div className="cards">{cards}</div>
 			</main>
+			<Footer></Footer>
 		</div>
 	);
 }
